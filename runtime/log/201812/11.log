@@ -1,0 +1,330 @@
+---------------------------------------------------------------
+[ 2018-12-11T10:17:30+08:00 ] 127.0.0.1 GET localhost:8000/
+[运行时间：0.097249s] [吞吐率：10.28req/s] [内存消耗：554.68kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:17:36+08:00 ] 127.0.0.1 GET localhost:8000/index.php
+[运行时间：0.395591s] [吞吐率：2.53req/s] [内存消耗：442.43kb] [文件加载：51]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-11T10:17:57+08:00 ] 127.0.0.1 GET localhost:8000/index
+[运行时间：0.004676s] [吞吐率：213.85req/s] [内存消耗：552.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:19:57+08:00 ] 127.0.0.1 GET localhost:8000/
+[运行时间：0.005872s] [吞吐率：170.30req/s] [内存消耗：552.84kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:19:59+08:00 ] 127.0.0.1 GET localhost:8000/index
+[运行时间：0.004101s] [吞吐率：243.84req/s] [内存消耗：552.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:20:20+08:00 ] 127.0.0.1 GET localhost:8000/index/Index
+[运行时间：0.003161s] [吞吐率：316.36req/s] [内存消耗：552.91kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:20:24+08:00 ] 127.0.0.1 GET localhost:8000/index/Index/hello
+[运行时间：0.004857s] [吞吐率：205.90req/s] [内存消耗：552.97kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:28:50+08:00 ] 127.0.0.1 GET localhost:8000/index/index/hello
+[运行时间：0.005235s] [吞吐率：191.01req/s] [内存消耗：552.97kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:28:56+08:00 ] 127.0.0.1 GET localhost:8000/index/index/index
+[运行时间：0.003306s] [吞吐率：302.49req/s] [内存消耗：552.97kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T10:29:02+08:00 ] 127.0.0.1 GET localhost:8000/index/index/hello
+[运行时间：0.004943s] [吞吐率：202.31req/s] [内存消耗：552.97kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:09:26+08:00 ] 127.0.0.1 GET localhost:8000/test
+[运行时间：0.025652s] [吞吐率：38.98req/s] [内存消耗：565.84kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:09:38+08:00 ] 127.0.0.1 GET localhost:8000/test/test
+[运行时间：0.004444s] [吞吐率：225.03req/s] [内存消耗：562.94kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:09:44+08:00 ] 127.0.0.1 GET localhost:8000/test/test/hello
+[运行时间：0.004449s] [吞吐率：224.78req/s] [内存消耗：562.98kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:09:59+08:00 ] 127.0.0.1 GET localhost:8000/test/hello
+[运行时间：0.091985s] [吞吐率：10.87req/s] [内存消耗：580.73kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [4]语法错误: unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{'[/home/jr/tp5/application/test/controller/Hello.php:2]
+---------------------------------------------------------------
+[ 2018-12-11T11:10:17+08:00 ] 127.0.0.1 GET localhost:8000/test/hello
+[运行时间：0.004730s] [吞吐率：211.42req/s] [内存消耗：559.95kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:10:23+08:00 ] 127.0.0.1 GET localhost:8000/test/hello/test
+[运行时间：0.004602s] [吞吐率：217.29req/s] [内存消耗：557.76kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:10:32+08:00 ] 127.0.0.1 GET localhost:8000/test/hello/luck
+[运行时间：0.004832s] [吞吐率：206.95req/s] [内存消耗：552.61kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:12:08+08:00 ] 127.0.0.1 GET localhost:8000/test
+[运行时间：0.003411s] [吞吐率：293.16req/s] [内存消耗：554.40kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-11T11:12:11+08:00 ] 127.0.0.1 GET localhost:8000/test/index
+[运行时间：0.003310s] [吞吐率：302.12req/s] [内存消耗：552.57kb] [文件加载：58]
+[ info ] [ LANG ] /home/jr/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'csrftoken=w7MvVb1G5mUuI8b2gDBvb4acm4MpBQPKx3bXOvgNewQi9tTeXIAZzJ15RuvTTRzw; _ga=GA1.1.258408403.1512377688; Pycharm-149d4da2=410c7133-679d-4fda-bab4-892c18f0c9a7; Pycharm-d3ec8342=9c8b6f69-0ba5-4135-ba57-afe9fd0adcb5; username-localhost-8888="2|1:0|10:1543819588|23:username-localhost-8888|44:NjFmYmE4Zjg5MjBmNDdiNDkxODJjNTU1NzQ2MGM1NmY=|c8f8d2be8642116c0fd771271cc0ae5bb0c4a4f92a6e57ded6e274ef46bc07d3"; _xsrf=2|023adebc|6d470d32dd0087c2c7dfc214da022157|1543819549; name=13538626821; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6IjEzNTM4NjI2ODIxIiwiZXhwIjoxNTQ0NDMzMjIyLCJlbWFpbCI6bnVsbH0.F3XQtTAAGX9fGBHgeQny0-n5yMndX_-mi1FNrhDq6Uo',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)

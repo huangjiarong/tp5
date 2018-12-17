@@ -1,0 +1,534 @@
+---------------------------------------------------------------
+[ 2018-12-17T10:38:44+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.856508s] [吞吐率：1.17req/s] [内存消耗：808.07kb] [文件加载：64]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049611s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.100638s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.001466s ]
+---------------------------------------------------------------
+[ 2018-12-17T10:38:51+08:00 ] 127.0.0.1 GET www.tp5.com/teacher
+[运行时间：0.077824s] [吞吐率：12.85req/s] [内存消耗：446.81kb] [文件加载：50]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-17T10:38:59+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/
+[运行时间：0.126008s] [吞吐率：7.94req/s] [内存消耗：1,076.15kb] [文件加载：79]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2018-12-17T10:43:15+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/
+[运行时间：0.106443s] [吞吐率：9.39req/s] [内存消耗：617.17kb] [文件加载：65]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T10:43:18+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/index.html
+[运行时间：0.042289s] [吞吐率：23.65req/s] [内存消耗：589.97kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/teacher/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:01+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/
+[运行时间：0.235594s] [吞吐率：4.24req/s] [内存消耗：772.55kb] [文件加载：72]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:03+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/index.html
+[运行时间：0.043886s] [吞吐率：22.79req/s] [内存消耗：586.23kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/teacher/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:08+08:00 ] 127.0.0.1 POST www.tp5.com/index/login/login.html
+[运行时间：0.289527s] [吞吐率：3.45req/s] [内存消耗：1,012.38kb] [文件加载：78]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '25',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '111',
+  'password' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056031s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` WHERE  `username` = '111' LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:11+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/index.html
+[运行时间：0.136866s] [吞吐率：7.31req/s] [内存消耗：1,076.28kb] [文件加载：80]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:13+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/index.html
+[运行时间：0.010862s] [吞吐率：92.06req/s] [内存消耗：1,076.53kb] [文件加载：80]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:01:14+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/index.html
+[运行时间：0.014739s] [吞吐率：67.85req/s] [内存消耗：1,076.60kb] [文件加载：80]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:09:13+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/index.html
+[运行时间：1.939587s] [吞吐率：0.52req/s] [内存消耗：1,115.82kb] [文件加载：81]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021908s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:09:18+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/login
+[运行时间：0.066627s] [吞吐率：15.01req/s] [内存消耗：754.84kb] [文件加载：72]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-17T11:09:28+08:00 ] 127.0.0.1 GET www.tp5.com/index/login
+[运行时间：0.064898s] [吞吐率：15.41req/s] [内存消耗：589.46kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:09:31+08:00 ] 127.0.0.1 GET www.tp5.com/index/logout
+[运行时间：0.025279s] [吞吐率：39.56req/s] [内存消耗：563.73kb] [文件加载：61]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-17T11:09:35+08:00 ] 127.0.0.1 GET www.tp5.com/index/logOut
+[运行时间：0.006173s] [吞吐率：162.00req/s] [内存消耗：560.76kb] [文件加载：61]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-17T11:09:49+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/login
+[运行时间：0.052064s] [吞吐率：19.21req/s] [内存消耗：755.53kb] [文件加载：72]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: username[/home/jr/PHP/tp5/application/index/controller/LoginController.php:24]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:01+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/logOut
+[运行时间：0.043855s] [吞吐率：22.80req/s] [内存消耗：772.23kb] [文件加载：72]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:03+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/index.html
+[运行时间：0.006335s] [吞吐率：157.85req/s] [内存消耗：586.23kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/logOut',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:08+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/
+[运行时间：0.004116s] [吞吐率：242.95req/s] [内存消耗：776.58kb] [文件加载：73]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:10+08:00 ] 127.0.0.1 GET www.tp5.com/index/login/index.html
+[运行时间：0.007531s] [吞吐率：132.79req/s] [内存消耗：586.23kb] [文件加载：62]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/teacher/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:13+08:00 ] 127.0.0.1 POST www.tp5.com/index/login/login.html
+[运行时间：0.008337s] [吞吐率：119.95req/s] [内存消耗：1,012.38kb] [文件加载：78]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '25',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '111',
+  'password' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` WHERE  `username` = '111' LIMIT 1 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2018-12-17T11:10:16+08:00 ] 127.0.0.1 GET www.tp5.com/index/teacher/index.html
+[运行时间：0.011700s] [吞吐率：85.47req/s] [内存消耗：1,085.39kb] [文件加载：81]
+[ info ] [ LANG ] /home/jr/PHP/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/index/login/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=0oqubbdrslknrljog69ohl1nq3',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/jr/PHP/tp5/application/index/view/teacher/index.html [ array (
+  0 => 'teachers',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_teacher` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 0,5 [ RunTime:0.000287s ]
