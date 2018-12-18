@@ -123,7 +123,7 @@ class TeacherController extends IndexController
         try {
             $id = Request::post('id/d');
             $state = $this->validate(Request::post(), 'app\common\validate\Teacher');
-            if (!$state) {
+            if (!$state !== true) {
                 return '数据验证失败';
             }
 
