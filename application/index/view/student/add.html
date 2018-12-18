@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>添加</title>
+</head>
+<body>
+<form action="{:url('insert')}" method="post">
+    <label for="name">name:</label><input type="text" name="name" id="name" />
+    <label for="num">num:</label><input type="text" name="num" id="num" />
+    <label for="email">email:</label><input type="text" name="email" id="email" />
+    <select name="sex" id="sex">
+        <option value="0">男</option>
+        <option value="1">女</option>
+    </select>
+    <label for="klass">班级:</label>
+    <select name="klass_id" id="klass">
+        {volist name="klasses" id="_Klass"}
+        <option value="{$_Klass->getData('id')}">{$_Klass->getData('name')}</option>
+        {/volist}
+    </select>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>

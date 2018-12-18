@@ -54,4 +54,28 @@ class StudentController extends IndexController
         $Student->delete();
         $this->success('删除成功', url('index'));
     }
+
+    public function add(){
+        $klasses = Klass::all();
+        $this->assign('klasses', $klasses);
+        return $this->fetch();
+    }
+
+    public function insert(){
+        $postData = Request::post();
+        $Student = new Student();
+        $Student->name = $postData['name'];
+        $Student->num = $postData['num'];
+        $Student->email = $postData['email'];
+        $Student->sex = $postData['sex'];
+        $Student->klass_id = $postData['klass_id'];
+
+        $result = $this->validate($Student, 'app\common\validate\Student');
+        if ($result !== true){
+            $this->error('数据验证错误');
+        }
+        $Student->save();
+        var_dump($Student);
+        $this->success('增加成功', url('index'));
+    }
 }
